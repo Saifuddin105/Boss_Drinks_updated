@@ -1,0 +1,593 @@
+.contactUS_section {
+    margin-top: 50px;
+    width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NAME {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+   
+
+}
+
+.CITY {
+    display: flex;
+    flex-direction: row;
+   
+    gap: 20px;
+    margin-top: 20px;
+    
+
+
+}
+
+.website {
+
+    
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.COUNTRY {
+
+    margin-top: 20px;
+
+    width: 90%;
+    
+    /* margin-left: 50px; */
+}
+
+.website input {
+    border: 1px solid #c4c4c4;
+
+
+    border-radius: 4px;
+    width: 865px;
+    padding: 8px;
+    margin-top: 5px;
+
+}
+
+.COUNTRY input {
+    border: 1px solid #c4c4c4;
+
+
+    border-radius: 4px;
+    width: 420px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.OCCUPATION {
+    display: flex;
+    flex-direction: row;
+   
+    gap: 20px;
+    
+}
+
+.OCCUPATION input {
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    width: 420px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.CITY input {
+
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    width: 420px;
+    padding: 8px;
+    margin-top: 5px;
+
+}
+
+.NAME input {
+    border: 1px solid #c4c4c4;
+
+
+    border-radius: 4px;
+    width: 420px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#country_number_contact {
+    border: 1px solid #c4c4c4;
+
+
+    border-radius: 4px;
+    width: 420px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#phone_number_contact {
+    border: 1px solid #c4c4c4;
+
+
+    border-radius: 4px;
+    width: 420px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.contact_email {
+    margin-top: 45px;
+    
+
+}
+
+#channel-type {
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 25px;
+    width: 850px;
+    font-size: 15px;
+
+}
+
+.contact_email input {
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 20px;
+    width: 850px;
+    font-size: 15px;
+}
+
+#other_methods {
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 20px;
+    width: 250px;
+    font-size: 15px;
+}
+
+.other_methods_info input {
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 20px;
+    width: 600px;
+    font-size: 15px;
+}
+
+.open_store_checkboxes {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: 40px;
+}
+
+.store_connections {
+    margin-top: 45px;
+   
+}
+
+.store_connections h4, .investment h4, .contact_email h4, .open_store h4, .which_city h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+.which_city {
+    margin-top: 45px;
+    
+
+}
+
+.which_city input {
+    border: 1px solid #c4c4c4;
+
+
+    border-radius: 4px;
+    width: 865px;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.referrence {
+    margin-top: 45px;
+    
+
+}
+
+.referrence h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+.referrence input {
+    border: 1px solid #c4c4c4;
+
+    padding: 8px;
+    border-radius: 4px;
+    width: 865px;
+
+    margin-top: 20px;
+}
+
+.contact_Submit_btn {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+#A1 {
+    font-size: 16px;
+    color: #08afb4;
+}
+
+
+#contact_submit_btn {
+    background: #017062;
+    text-align: center;
+    width: 200px;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.ending_checkbox {
+    margin-top: 45px;
+    
+
+}
+
+#text_AREA {
+    border: 1px solid #c4c4c4;
+
+
+    border-radius: 4px;
+    width: 100%;
+
+    margin-top: 20px;
+}
+
+.why_work {
+    margin-top: 45px;
+    
+
+}
+
+.why_work h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+.other_methods {
+    margin-top: 45px;
+   
+
+}
+
+.other_methods h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+.openstore_checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: 30px;
+}
+
+.open_store {
+    margin-top: 45px;
+    
+
+}
+
+
+
+.phone_Number_contact {
+    margin-top: 20px;
+}
+
+.mobile_no {
+    margin-top: 45px;
+    
+
+
+}
+
+.mobile_no h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+
+.investment {
+    margin-top: 45px;
+    
+
+}
+
+.investment_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.investment_full {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: 35px;
+}
+
+
+
+.store_connections input {
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 25px;
+    width: 850px;
+    font-size: 15px;
+}
+
+.OCCUPATION h4, .CITY h4 {
+    font-size: 16px;
+    color: #000;
+
+}
+
+.real_store {
+    margin-top: 45px;
+   
+
+}
+
+.real_store h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+.COUNTRY h4 {
+    text-align: start;
+    font-size: 16px;
+    color: #000;
+}
+
+.NAME h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+.website h4 {
+    text-align: start;
+    font-size: 16px;
+    color: #000;
+    /* margin-left: 50px; */
+
+}
+
+.selectboxes {
+    margin-top: 55px;
+
+    
+}
+
+.selectboxes h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+.channel_type {
+    margin-top: 55px;
+    
+}
+
+.channel_type h4 {
+    font-size: 16px;
+    color: #000;
+}
+
+.four_selectboxes {
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullsection_selectboxes {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin-top: 30px;
+
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input_control.success input {
+    border-color: #09c372;
+}
+
+.input_control.error input {
+    border-color: #ff3860;
+}
+
+.input_control.error {
+    color: #ff3860;
+    font-size: 9px;
+
+}
+
+@media screen and (max-width:576px) {
+    .COUNTRY {
+        margin-left: auto !important;
+    }
+
+    .website h4 {
+        margin-left: auto;
+    }
+
+
+
+    .NAME {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+
+
+    .website {
+        padding: 10px;
+        width: 100%;
+    }
+
+
+    .OCCUPATION {
+        padding: 10px;
+    }
+
+    .OCCUPATION, .CITY {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .selectboxes {
+        padding: 10px;
+    }
+
+    .four_selectboxes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .COUNTRY {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .contactUS_section {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    #A1 {
+        font-size: 12px;
+    }
+
+    #channel-type {
+        width: 96%;
+    }
+
+    .store_connections input {
+        width: 96%;
+    }
+
+    #country_number_contact {
+        width: 40%;
+    }
+
+    #phone_number_contact {
+        width: 55%;
+    }
+
+    #other_methods {
+        width: 35%;
+    }
+
+    .contact_email input {
+        width: 96%;
+    }
+
+    .other_methods_info input {
+        width: 60%;
+    }
+
+    .NAME input, .OCCUPATION input, .CITY input, .website input, .which_city input, .referrence input, .COUNTRY input {
+        width: 96%;
+    }
+
+    .channel_type {
+        padding: 10px;
+    }
+
+    .other_methods, .store_connections {
+        padding: 10px;
+    }
+
+    .open_store {
+        padding: 10px;
+    }
+
+    .openstore_checkbox {
+        gap: 100px;
+    }
+
+    .mobile_no, .contact_email, .why_work, .which_city, .referrence, .ending_checkbox {
+        padding: 10px;
+    }
+
+    .contactUS_section h4 {
+        font-size: 13px;
+    }
+
+    .contactUS_section span {
+        font-size: 12px;
+    }
+
+    .investment {
+        padding: 10px;
+    }
+
+    .investment_full {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .open_store_checkboxes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .real_store {
+        padding: 10px;
+    }
+
+    .fullsection_selectboxes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #text_AREA {
+        width: 100%;
+    }
+
+
+}

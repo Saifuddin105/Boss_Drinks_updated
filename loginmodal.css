@@ -1,0 +1,404 @@
+.input_control input:focus {
+    outline: 0;
+}
+
+.input_control.success input {
+    border-color: #09c372;
+}
+
+.input_control.error input {
+    border-color: #ff3860;
+}
+
+.input_control.error {
+    color: #ff3860;
+    font-size: 9px;
+
+}
+
+.form_control.error2 {
+    color: #ff3860;
+    font-size: 9px;
+}
+
+.form_control.success2 input {
+    border-color: #09c372;
+}
+
+.form_control.error2 input {
+    border-color: #ff3860;
+}
+
+#continue_btn_2 {
+    background: #08152C;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login_modal_bg {
+
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, .6);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.login_bg_active {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.login_modal {
+
+    margin-top: 20px;
+
+    height: 95vh;
+
+    width: 30%;
+    margin-left: auto;
+
+    margin-right: auto;
+    background: #FFFFFF;
+    border-radius: 28px;
+    padding-top: 13px;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.login_form_options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.login_form_options button {
+    border: none;
+    background: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+#signup_button {
+    color: #777777c2;
+}
+
+
+.LOGIN_FORM {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* gap: 4px; */
+}
+
+#login_checkbox {
+    width: auto;
+}
+
+.LOGIN_FORM input {
+    background: #F0F5F8;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #FFF;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+
+.SIGNUP_FORM {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    gap: 8px;
+    display: none;
+
+
+}
+
+.NAMES {
+    display: flex;
+    gap: 10px;
+}
+
+.NAMES input {
+    width: 50%;
+    background: #F0F5F8;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+}
+
+.checkbox_DIV {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 14px;
+    margin-bottom: 15px;
+}
+
+.SIGNUP_FORM input {
+    background: #F0F5F8;
+    padding: 16px;
+    border-radius: 15px;
+    border: 1px solid #FFF;
+    width: 100%;
+    margin-top: 2px;
+
+    font-size: 12px;
+
+}
+
+#login_modal_pass {
+    margin-top: 15px;
+}
+
+#signup_pass {
+    margin-top: 15px;
+}
+
+#email_2 {
+    margin-top: 15px;
+}
+
+#signup_pass_confirm {
+    margin-top: 4px;
+}
+
+
+#login_form_checkbox {
+
+    height: 20px;
+    width: 20px;
+
+}
+
+#H-4 {
+    font-size: 13px;
+    color: #777;
+    font-weight: 400;
+}
+
+#Anchor {
+    font-size: 13px;
+    color: brown;
+}
+
+#continue_btn {
+    background: #08152C;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cross_button {
+    border: none;
+    background: #FFFFFF;
+    font-size: 30px;
+    margin-top: -8px;
+    margin-right: 10px;
+    font-weight: 700;
+    width: 30px;
+    cursor: pointer;
+}
+
+#P_TAG {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 23px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+}
+
+.forget_pss_div {
+    margin-top: 1px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 100px;
+    padding: 0px 15px;
+    justify-content: space-around;
+
+}
+
+.remember_me span {
+    font-size: 13px;
+}
+
+.remember_me {
+    display: flex;
+    gap: 5px;
+    margin-top: 3px;
+}
+
+#eye_icon {
+    margin-left: 390px;
+    margin-top: -77px;
+}
+
+@media screen and (max-width:576px) {
+    .login_modal {
+        width: 90%;
+        height: 90vh !important;
+    }
+
+
+}
+
+@media screen and (min-width:400px) and (max-width:415px) {
+    #eye_icon {
+        margin-left: 288px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:391px) {
+    #eye_icon {
+        margin-left: 275px;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:361px) {
+    #eye_icon {
+        margin-left: 250px;
+    }
+}
+
+@media screen and (min-width:362px) and (max-width:376px) {
+    #eye_icon {
+        margin-left: 263px;
+    }
+}
+
+@media screen and (min-width:416px) and (max-width:450px) {
+    #eye_icon {
+        margin-left: 300px;
+    }
+}
+
+@media screen and (min-width:1023px) and (max-width:1112px) {
+    #eye_icon {
+        margin-left: 325px;
+    }
+
+    .login_modal {
+        width: 40%;
+    }
+
+    .remember_me p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:1175px) and (max-width:1240px) {
+    #eye_icon {
+        margin-left: 300px;
+    }
+
+}
+
+@media screen and (min-width:1275px) and (max-width:1300px) {
+    #eye_icon {
+        margin-left: 300px;
+    }
+
+}
+
+@media screen and (min-width:1301px) and (max-width:1450px) {
+    #eye_icon {
+        margin-left: 320px;
+    }
+}
+
+@media screen and (min-width:1500px) and (max-width:1550px) {
+    #eye_icon {
+        margin-left: 360px;
+    }
+}
+
+@media screen and (min-width:1555px) and (max-width:1600px) {
+    #eye_icon {
+        margin-left: 371px;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width:1700px) {
+    #eye_icon {
+        margin-left: 408px;
+    }
+}
+
+@media screen and (min-width:1900px) and (max-width:2000px) {
+    #eye_icon {
+        margin-left: 460px;
+    }
+}
+
+@media screen and (min-width:2001px) and (max-width:2100px) {
+    #eye_icon {
+        margin-left: 500px;
+    }
+}
+
+@media screen and (min-width:2101px) and (max-width:2200px) {
+    #eye_icon {
+        margin-left: 515px;
+    }
+}
+
+@media screen and (min-width:2201px) and (max-width:2300px) {
+    #eye_icon {
+        margin-left: 540px;
+    }
+}
+
+@media screen and (min-width:2301px) and (max-width:2400px) {
+    #eye_icon {
+        margin-left: 555px;
+    }
+}
+
+@media screen and (min-width:2401px) and (max-width:2500px) {
+    #eye_icon {
+        margin-left: 580px;
+    }
+}
+
+@media screen and (min-width:2501px) and (max-width:2600px) {
+    #eye_icon {
+        margin-left: 625px;
+    }
+}

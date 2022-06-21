@@ -1,0 +1,157 @@
+@media (max-width: 1024px) {
+
+    #shopnowDiv {
+        width: 75%;
+    }
+
+    .footer_img_icon {
+        margin-left: 85px;
+    }
+
+    .component-accordion .panel-group .panel {
+        width: 375px;
+    }
+
+    #drinktitle {
+        font-size: 30px;
+    }
+
+    .card2 {
+        width: 300px;
+    }
+
+    .card2 .product_display_contentbox h4 {
+        font-size: 12px;
+        margin-top: 14px;
+    }
+
+    .radioDIVsingle1 {
+        width: 93%;
+    }
+
+    .selectbox_firstproduct small {
+        font-size: 14px;
+    }
+
+    .drinktitleclass h3 {
+        font-size: 26px;
+
+    }
+
+    .radioDIV2 {
+        width: 93%;
+    }
+
+    .productdisplaysection {
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+
+    #smallboxradio1, #smallboxradio2, #smallboxradio3 {
+        height: 13px;
+        width: 14px;
+    }
+
+    .cans {
+        font-size: 16px;
+    }
+
+    .smallBOX p {
+        font-size: 14px;
+    }
+
+    .radiodetails_3 select {
+        height: 40px;
+        width: 38px;
+    }
+
+    .smallBOX small {
+        font-size: 14px;
+    }
+
+    .smallBOX {
+        width: 132px;
+        height: 86px;
+    }
+
+    .small_radiobox {
+        gap: 10px;
+    }
+
+    .TEXT {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .socialmedia {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .shopping_details {
+        margin-left: -40px;
+    }
+
+    .checkoutMain {
+        padding-left: 0px;
+    }
+
+    .Place_order_MAIN {
+        flex-direction: column;
+    }
+
+    .shopping_details_placeOrder {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
+    .baccadrinks_display {
+        gap: 35px;
+    }
+
+    .baccadrink1 {
+        width: 300px;
+    }
+
+    .energydrinks_display {
+        gap: 35px;
+    }
+
+    .energydrink1 {
+        width: 300px;
+    }
+
+    .productdisplay_imgbox {
+        width: 288px;
+    }
+
+    .productdisplay_imgbox img {
+        height: 250px;
+    }
+
+    .Appetizer1 {
+        width: 300px;
+    }
+
+    .productidsplay_contentbox h4 {
+        font-size: 20px;
+    }
+
+    .checkoutMain h2 {
+        font-size: 30px;
+    }
+
+    .account_info {
+        width: 82vw;
+    }
+
+    .UK_Map {
+        width: 12vw;
+    }
+
+    .full_int_reg_section {
+        width: 65vw;
+    }
+}
