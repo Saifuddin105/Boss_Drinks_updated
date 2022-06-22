@@ -459,7 +459,8 @@ if (stock_nowbtn != null) {
 
 const USERBTN = document.getElementById("userbtn");
 const LoginModal = document.querySelector(".login_modal_bg");
-const login_modal_close = document.getElementById("cross_button");
+const login_modal_close = document.querySelector("#cross_button");
+const login_phone_number = document.querySelector(".login_btn_class4");
 
 USERBTN.addEventListener("click", () => {
   console.log(USERBTN);
@@ -469,17 +470,19 @@ login_modal_close.addEventListener("click", () => {
   LoginModal.classList.remove("login_bg_active");
 });
 
-const Fromloginbtn = document.getElementById("login_BUTTON");
-const FormsignupBtn = document.getElementById("signup_button");
+const Fromloginbtn = document.querySelector("#login_BUTTON");
+const FormsignupBtn = document.querySelector("#signup_button");
 
 const loginForm = document.querySelector(".LOGIN_FORM");
 const signupForm = document.querySelector(".SIGNUP_FORM");
+const signup_mobile_section = document.querySelector(".continue_mobile_full");
 
 Fromloginbtn.addEventListener("click", () => {
   signupForm.style.display = "none";
   loginForm.style.display = "block";
   FormsignupBtn.style.color = "#777777c2";
   Fromloginbtn.style.color = "black";
+  signup_mobile_section.style.display = "none";
 });
 
 FormsignupBtn.addEventListener("click", () => {
@@ -488,7 +491,42 @@ FormsignupBtn.addEventListener("click", () => {
   signupForm.style.display = "block";
   Fromloginbtn.style.color = "#777777c2";
   FormsignupBtn.style.color = "black";
+  signup_mobile_section.style.display = "none";
 });
+login_phone_number.addEventListener("click", () => {
+  loginForm.style.display = "none";
+
+  signupForm.style.display = "none";
+
+  Fromloginbtn.style.color = "#777777c2";
+  FormsignupBtn.style.color = "black";
+  signup_mobile_section.style.display = "block";
+});
+
+// const USERBTN = document.getElementById("userbtn");
+// const LoginModal = document.querySelector(".login_modal_bg");
+// const login_modal_close = document.getElementById("cross_button");
+
+// const Fromloginbtn = document.getElementById("login_BUTTON");
+// const FormsignupBtn = document.getElementById("signup_button");
+
+// const loginForm = document.querySelector(".LOGIN_FORM");
+// const signupForm = document.querySelector(".SIGNUP_FORM");
+
+// Fromloginbtn.addEventListener("click", () => {
+//   signupForm.style.display = "none";
+//   loginForm.style.display = "block";
+//   FormsignupBtn.style.color = "#777777c2";
+//   Fromloginbtn.style.color = "black";
+// });
+
+// FormsignupBtn.addEventListener("click", () => {
+//   loginForm.style.display = "none";
+
+//   signupForm.style.display = "block";
+//   Fromloginbtn.style.color = "#777777c2";
+//   FormsignupBtn.style.color = "black";
+// });
 
 // cart sidebar
 // const cart_sidebar = document.querySelector(".addtocart_sidebar");

@@ -5591,6 +5591,26 @@ tr:nth-child(even) {
     border: 1px solid black;
 
 }
+.login_btn_class4 {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 20px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid black;
+
+}
+.login_btn_class4 p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
 
 .login_btn_class2 p {
     margin-left: auto;
@@ -6560,6 +6580,7 @@ a {
     display: flex;
     flex-direction: row !important;
     margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .policy_part {
@@ -6810,6 +6831,81 @@ a {
     font-family: 'Oswald';
     letter-spacing: 1px;
     font-weight: 700;
+}
+
+
+.login_mobile {
+        display: flex;
+    padding: 20px;
+}
+.mobile__NO {
+    color: rgb(22, 24, 35);
+        border: 1px solid rgba(22, 24, 35, 0.12);
+    border-radius: 2px;
+    background-color: rgba(22, 24, 35, 0.06);
+    padding-inline-start: 12px;
+    line-height: 100%;
+    outline: none;
+    font-size: 16px;
+    height: 45px;
+    caret-color: rgb(254, 44, 85);
+    width: 100%;
+    margin-top: 35px;
+}
+.continue_mobile_full {
+    padding: 0 30px;
+    display: none;
+}
+
+.contry_codes {
+        display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    padding: 12px;
+    height: 44px;
+    width: 100%;
+}
+
+.send_code_section {
+    display: flex;
+    padding: 5px 20px;
+}
+#send_code_id {
+    color: rgb(22, 24, 35);
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    border-radius: 2px;
+    background-color: rgba(22, 24, 35, 0.06);
+    padding-inline-start: 12px;
+    line-height: 100%;
+    outline: none;
+    font-size: 16px;
+    height: 44px;
+    caret-color: rgb(254, 44, 85);
+    width: 62%;
+    
+}
+#send_code_btn {
+    font-weight: 600;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(22, 24, 35, 0.12);
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 0px 4px 4px 0px;
+    border-inline-start-width: 1.5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0px 16px;
+    height: 41px;
+    box-sizing: content-box;
+    width: 100%;
+}
+.login_mobile_codes h4 {
+        margin-bottom: 12px;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 576px) {
