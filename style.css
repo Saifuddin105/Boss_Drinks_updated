@@ -5538,6 +5538,8 @@ tr:nth-child(even) {
 
 }
 
+
+
 .bg-active {
     visibility: visible;
     opacity: 1;
@@ -6118,7 +6120,7 @@ tr:nth-child(even) {
 .SLIDES {
     position: relative;
     overflow: hidden;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
 
 
