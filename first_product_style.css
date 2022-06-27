@@ -399,12 +399,12 @@
     }
 
     .sub_tab_info::before {
-        width: 178px;
+        width: 196px;
     }
 
     .one_time_info::before {
-        width: 178px;
-        margin-left: 159px;
+        width: 196px;
+        margin-left: 177px;
     }
 
     .productdetails {

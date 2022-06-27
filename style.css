@@ -993,7 +993,7 @@ ul li:nth-child(5) a:hover .fab {
 .card2::before {
     content: '';
     position: absolute;
-    top: -50%;
+    top: -42%;
     width: 100%;
     height: 100%;
     background: #007bb6;
@@ -3124,7 +3124,7 @@ a:link {
     .productdisplaysection {
         display: flex !important;
         flex-direction: column !important;
-        height: 1500px !important;
+        height: 1620px !important;
         align-items: center !important;
         padding-left: 0px !important;
         padding-right: 0px !important;
@@ -3193,9 +3193,9 @@ a:link {
 
     .icon_moreinfo {
         margin-left: 300px;
-        height: 21px;
+        height: 22px;
         width: 22px;
-        font-size: 17px;
+        font-size: 19px;
     }
 
     .title_moreinfo {
@@ -3645,18 +3645,21 @@ a:link {
     gap: 25px;
 }
 
+
+
 .addtocart_sidebar_top button {
-    height: 35px;
-    width: 35px;
+    height: 28px;
+    width: 28px;
     outline: none;
     border-style: none;
     background-color: #C1C1C1;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 16px;
     border-radius: 50%;
     margin-top: 25px;
     margin-left: 15px;
     color: #FFFFFF;
+    padding: 2px;
 }
 
 .FirstBOX {
