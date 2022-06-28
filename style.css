@@ -132,6 +132,18 @@ ul {
     font-size: 40px;
 }
 
+.first_part_contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_top_bar {
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .productdetails_navbar {
     background: #FFFFFF;
 }
@@ -2067,6 +2079,11 @@ a:link {
     #cart_btn_image {
         height: 28px !important;
     }
+    #cart_btn_img {
+        height: 28px !important;
+    }
+
+
 
     .third-part {
         display: flex;
@@ -2959,7 +2976,7 @@ a:link {
 
     .wow-img {
         height: 50px;
-        margin-left: -20px;
+        
     }
 
     .text-1 {
@@ -6032,6 +6049,9 @@ tr:nth-child(even) {
 #cart_btn_image {
     height: 42px;
 
+}
+#cart_btn_img {
+    height: 42px;
 }
 
 #eye-icon {
