@@ -132,6 +132,10 @@ ul {
     font-size: 40px;
 }
 
+.navbar-btn img {
+    height: 40px;
+}
+
 .first_part_contents {
     display: flex;
     justify-content: center;
@@ -2021,6 +2025,10 @@ a:link {
 @media only screen and (max-width: 576px) {
 
     /* new design updated */
+
+    .navbar-btn img {
+    height: 28px !important;
+}
     .brand_table_2 {
         margin-top: -50px;
         width: 100% !important;
