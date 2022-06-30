@@ -125,11 +125,17 @@ ul {
     /* background: #F8F9FA; */
     transition: background .2s;
 }
+ .third_part_stbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
 .navbar-btn {
     border: none;
     background: transparent;
-    font-size: 40px;
+    font-size: 5px;
 }
 
 .navbar-btn img {
@@ -2976,12 +2982,7 @@ a:link {
         display: flex;
         justify-content: space-between;
     }
-    .third_part_stbar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+   
     .imgDiv {
         display: flex;
         justify-content: center;
