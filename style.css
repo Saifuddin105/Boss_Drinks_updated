@@ -1281,7 +1281,7 @@ a:link {
 
 .card {
     width: 340px;
-    padding: 30px 55px;
+    padding: 30px 10px !important;
     background-color: #fff;
     border-radius: 40px;
     cursor: pointer;
@@ -5763,6 +5763,7 @@ tr:nth-child(even) {
     background: #ff0000d4;
     color: white;
     justify-content: center;
+    margin-bottom: 70px;
 
 }
 
@@ -6905,8 +6906,9 @@ a {
     justify-content: space-between;
     position: relative;
     padding: 12px;
-    height: 44px;
+    height: 47px;
     width: 100%;
+    -webkit-appearance: none;
 }
 
 .send_code_section {
@@ -6942,6 +6944,7 @@ a {
     height: 41px;
     box-sizing: content-box;
     width: 100%;
+    color: black;
 }
 .login_mobile_codes h4 {
         margin-bottom: 12px;
