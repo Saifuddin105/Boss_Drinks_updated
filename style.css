@@ -6943,7 +6943,7 @@ a {
     padding: 0px 16px;
     height: 41px;
     box-sizing: content-box;
-    width: 100%;
+    width: 75%;
     color: black;
 }
 .login_mobile_codes h4 {
@@ -6956,6 +6956,11 @@ a {
         flex-direction: column !important;
         width: 95% !important;
     }
+
+    .continue_mobile_full {
+    padding: 0 10px;
+   
+}
 
     .form_part {
         width: 90% !important;

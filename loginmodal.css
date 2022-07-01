@@ -276,6 +276,18 @@
         height: 90vh !important;
     }
 
+    #send_code_btn {
+    width: 75% !important;
+}
+.send_code_section {
+    justify-content: center;
+}
+
+#send_code_id {
+    font-size: 14px;
+    width: 55%;
+} 
+
 
 }
 
